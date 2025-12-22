@@ -1,0 +1,61 @@
+body {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  header {
+    background-color: #D62222;
+    margin-bottom: 0px;
+    width: 100%;
+    height: 76px;
+    font-size: 23px;
+    font-family: poppins;
+    color: white;
+  }
+  
+  #links-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    gap: 10px;
+  }
+  
+  .link > a {
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+  }
+  
+  .link {
+    display: flex;
+    align-items: center;
+    height: 76px;
+  }
+  
+  .link:hover {
+    background-color: #233E87;
+  }
+  
+  main {
+    margin-top: 0px;
+  }
+  
+  #welcome-section {
+    background-color: #0B111A;
+    padding-top: 35px;
+    padding-bottom: 85px;
+    text-align: center;
+    color: white; 
+  }
+  
+  #name {
+    font-family: poppins;
+    font-size: 55px;
+  }
+  
+  #job {
+    font-family: Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 35px;
+    color: #D62222;
+  }
