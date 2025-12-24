@@ -59,3 +59,49 @@ body {
     font-size: 35px;
     color: #D62222;
   }
+
+  #project-section {
+    margin: 0;
+    padding-top: 54px;
+    height: 1200px;
+    background: #4666B8;
+    text-align: center;
+  }
+  
+  .project-title {
+    color: white;
+    font-family: poppins;
+    font-size: 33px;
+  }
+  
+  #project-section > hr {
+    width: 630px;
+    height: 5px;
+    background-color: #fff;
+  }
+  
+  #project-link {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .projects {
+    margin-top: 40px;
+    margin-right: auto;
+    margin-left: 20px;
+    width: 370px;
+    height: 410px;
+    background-color: #0B111A;
+  }
+  
+  .projects > img {
+    width: 370px;
+    height: 360px;
+  }
+  
+  .project-name {
+    margin: 7px auto;
+    color: #fff;
+    font-family: poppins;
+    font-size: 17px;
+  }
